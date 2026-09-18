@@ -1,4 +1,5 @@
-# Namespace hub; component implementations use direct preloads to avoid cycles.
+# This file is auto-generated. Do not edit.
+
 class_name GDShTUI
 
 const ScreenCommand = preload("res://addons/addon_lib/gdsh_lib/tui/core/screen_command.gd")
