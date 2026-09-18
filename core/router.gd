@@ -2,7 +2,7 @@
 extends RefCounted
 ## Navigation is committed after update; only the current screen can request it.
 const Screen = preload("res://addons/addon_lib/gdsh_lib/tui/core/screen.gd")
-const TUIMsg = preload("res://addons/addon_lib/gdsh/tui_msg.gd")
+const TUIMsg = preload("res://addons/addon_lib/gdsh/src/tui/tui_msg.gd")
 signal redraw_requested
 signal completed(result:Variant)
 var size:=Vector2i.ZERO

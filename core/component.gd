@@ -1,7 +1,7 @@
 #! namespace GDShTUI class Component
 extends RefCounted
 ## A stateful BBCode view. Sizes are monospace columns/rows, not pixels.
-const TUIMsg = preload("res://addons/addon_lib/gdsh/tui_msg.gd")
+const TUIMsg = preload("res://addons/addon_lib/gdsh/src/tui/tui_msg.gd")
 signal redraw_requested
 
 var size:=Vector2i.ZERO
