@@ -1,5 +1,5 @@
 #! namespace GDShTUI class Confirmation
-extends "res://addons/addon_lib/gdsh_lib/tui/core/component.gd"
+extends "res://addons/_lib/gdsh_lib/tui/core/component.gd"
 ## The owner decides whether resolving this component should pop a screen.
 signal resolved(accepted:bool)
 var prompt:String

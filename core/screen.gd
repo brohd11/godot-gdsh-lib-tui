@@ -1,7 +1,7 @@
 #! namespace GDShTUI class Screen
-extends "res://addons/addon_lib/gdsh_lib/tui/core/component.gd"
+extends "res://addons/_lib/gdsh_lib/tui/core/component.gd"
 ## Owns components and keyboard focus. Subclasses explicitly size and compose views.
-const Component = preload("res://addons/addon_lib/gdsh_lib/tui/core/component.gd")
+const Component = preload("res://addons/_lib/gdsh_lib/tui/core/component.gd")
 signal navigation_requested(operation:StringName, value:Variant)
 var components:Array[Component] = []
 var _focus_index:int = -1

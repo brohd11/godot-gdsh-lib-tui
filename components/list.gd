@@ -1,5 +1,5 @@
 #! namespace GDShTUI class List
-extends "res://addons/addon_lib/gdsh_lib/tui/core/component.gd"
+extends "res://addons/_lib/gdsh_lib/tui/core/component.gd"
 ## A single-row-per-item list. Labels are plain text; selection and scrolling are separate.
 class Item extends RefCounted:
 	var id:String

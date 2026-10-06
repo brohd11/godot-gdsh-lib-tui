@@ -6,7 +6,7 @@ It works in runtime consoles and Editor Console's docked and floating consoles.
 
 ## Use
 
-Place this package under `res://addons/addon_lib/gdsh_lib/tui/`, alongside GDSh.
+Place this package under `res://addons/_lib/gdsh_lib/tui/`, alongside GDSh.
 `GDShTUI` exposes `ScreenCommand`, `Router`, `Screen`, `Component`, `List`, `TextEntry`,
 and `Confirmation`. Dependencies flow from this library into GDSh; core GDSh can be
 used without it. The library requires no Editor Console services.
@@ -58,7 +58,7 @@ entry, and confirmation used together.
 
 This package registers **no commands**. `manifest.gd` preloads the namespace and every
 implementation for dependency-walking exports; it can also be used as
-`const TUI = preload("res://addons/addon_lib/gdsh_lib/tui/manifest.gd").TUI`.
+`const TUI = preload("res://addons/_lib/gdsh_lib/tui/manifest.gd").TUI`.
 
 ## Screen stack
 

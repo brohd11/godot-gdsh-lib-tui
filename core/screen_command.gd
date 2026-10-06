@@ -1,8 +1,8 @@
 #! namespace GDShTUI class ScreenCommand
-extends "res://addons/addon_lib/gdsh/src/tui/tui_command.gd"
+extends "res://addons/_lib/gdsh/src/tui/tui_command.gd"
 ## Override create_screen() and normal command metadata; run() remains available.
-const Screen = preload("res://addons/addon_lib/gdsh_lib/tui/core/screen.gd")
-const Router = preload("res://addons/addon_lib/gdsh_lib/tui/core/router.gd")
+const Screen = preload("res://addons/_lib/gdsh_lib/tui/core/screen.gd")
+const Router = preload("res://addons/_lib/gdsh_lib/tui/core/router.gd")
 var router:Router
 var result:Variant
 var _redraw_token = RefCounted.new()
