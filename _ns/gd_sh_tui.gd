@@ -2,10 +2,10 @@
 
 class_name GDShTUI
 
-const ScreenCommand = preload("res://addons/addon_lib/gdsh_lib/tui/core/screen_command.gd")
-const Router = preload("res://addons/addon_lib/gdsh_lib/tui/core/router.gd")
-const Screen = preload("res://addons/addon_lib/gdsh_lib/tui/core/screen.gd")
-const Component = preload("res://addons/addon_lib/gdsh_lib/tui/core/component.gd")
-const List = preload("res://addons/addon_lib/gdsh_lib/tui/components/list.gd")
-const TextEntry = preload("res://addons/addon_lib/gdsh_lib/tui/components/text_entry.gd")
-const Confirmation = preload("res://addons/addon_lib/gdsh_lib/tui/components/confirmation.gd")
+const Component = preload("uid://h4a1088djdjk") # res://addons/addon_lib/gdsh_lib/tui/core/component.gd
+const Confirmation = preload("uid://n7vdld6g2dfa") # res://addons/addon_lib/gdsh_lib/tui/components/confirmation.gd
+const List = preload("uid://mgrngedqt4jk") # res://addons/addon_lib/gdsh_lib/tui/components/list.gd
+const Router = preload("uid://rl03fsb2nd3q") # res://addons/addon_lib/gdsh_lib/tui/core/router.gd
+const Screen = preload("uid://t005piycdoid") # res://addons/addon_lib/gdsh_lib/tui/core/screen.gd
+const ScreenCommand = preload("uid://28fh8u13gkfg") # res://addons/addon_lib/gdsh_lib/tui/core/screen_command.gd
+const TextEntry = preload("uid://0omnv2k2t218") # res://addons/addon_lib/gdsh_lib/tui/components/text_entry.gd
