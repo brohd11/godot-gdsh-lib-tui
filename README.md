@@ -58,7 +58,7 @@ entry, and confirmation used together.
 
 This package registers **no commands**. `manifest.gd` preloads the namespace and every
 implementation for dependency-walking exports; it can also be used as
-`const TUI = preload("res://addons/_lib/gdsh_lib/tui/manifest.gd").TUI`.
+`const TUI = preload("res://addons/_lib/gdsh_lib/tui/src/manifest.gd").TUI`.
 
 ## Screen stack
 

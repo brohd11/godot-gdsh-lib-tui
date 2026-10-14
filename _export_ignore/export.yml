@@ -1,7 +1,7 @@
 export_root: "res://addons/_lib/gdsh_lib/tui/_export_ignore/exports"
 plugin_folder: "Tui{{version=res://addons/_lib/gdsh_lib/tui}}"
-pre_script: "res://addons/_lib/gdsh_lib/tui/_export_ignore/pre_post_export.gd"
-post_script: "res://addons/_lib/gdsh_lib/tui/_export_ignore/pre_post_export.gd"
+pre_script: ""
+post_script: ""
 build_require: "@require"
 compile_require: []
 options:

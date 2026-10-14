@@ -1,7 +1,7 @@
 #! namespace GDShTUI class Router
 extends RefCounted
 ## Navigation is committed after update; only the current screen can request it.
-const Screen = preload("res://addons/_lib/gdsh_lib/tui/core/screen.gd")
+const Screen = preload("res://addons/_lib/gdsh_lib/tui/src/core/screen.gd")
 const TUIMsg = preload("res://addons/_lib/gdsh/src/tui/tui_msg.gd")
 signal redraw_requested
 signal completed(result:Variant)

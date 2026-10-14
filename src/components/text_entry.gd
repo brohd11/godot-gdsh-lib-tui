@@ -1,5 +1,5 @@
 #! namespace GDShTUI class TextEntry
-extends "res://addons/_lib/gdsh_lib/tui/core/component.gd"
+extends "res://addons/_lib/gdsh_lib/tui/src/core/component.gd"
 ## Single-line, codepoint-based editing. No selection or IME composition.
 signal changed(text:String)
 signal submitted(text:String)
