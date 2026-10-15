@@ -83,6 +83,6 @@ func create_screen() -> Screen:
 	return ListScreen.new()
 ```
 
-This example is exercised by `tests/gdsh_lib/fixtures/tui_flow.gd` and the router tests.
+This example is exercised by `_export_ignore/test/fixtures/tui_flow.gd` and the router tests.
 For several components on one screen, allocate their sizes in `set_size()`, join their
 views in `view()`, and let the screen base manage Tab/Shift+Tab focus.

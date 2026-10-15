@@ -163,7 +163,7 @@ full-screen flow when housed in a screen; it does not overlay another view.
 
 ## Validation
 
-`tests/gdsh_lib/run_headless.py --godot <godot> --export` exercises components, routing,
+`_export_ignore/test/run_headless.py --godot <godot> --export` exercises components, routing,
 real console sessions, and compiled-script exports. Editor Console's plugin manager
 uses the screen stack and List as a production consumer. The larger modular layout
 system, overlays, and mouse hit-testing can build on these interfaces later.
